@@ -13,6 +13,9 @@ body{
     background-color: var(--White-color);
     font-size: 16px;
 }
+.gfhgr{
+    background-image: url("../images/antenna.svg");
+}
 h1,
 h2,
 h3,
@@ -168,10 +171,18 @@ color: var(--SLATE);
 .main {
 }
 .hero {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 600px;
+    
     background: var(--NAVY-BLUE);
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    background-image: url(../images/people-office1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:soft-light;
 }
 .hero-header {
     
@@ -216,6 +227,8 @@ padding: 16px 32px;
     width: calc((100% - 72px) / 4);
 
 }
+.svg-image{
+}
 .features-list-header {
 
     
@@ -227,7 +240,11 @@ letter-spacing: 0.02em;
 color: var(--NAVY-BLUE);
 margin-bottom:8px;
 
+
 }
+
+  
+
 .features-list-text {
 
 
