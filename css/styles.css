@@ -544,3 +544,6 @@ color: var(--SLATE);
     align-items: center;
     color: var(--LIGHT-SLATE);
 }
+.customers-icon{
+    fill: var(--Iris);
+}
