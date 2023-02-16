@@ -545,5 +545,16 @@ color: var(--SLATE);
     color: var(--LIGHT-SLATE);
 }
 .customers-icon{
-    fill: var(--Iris);
+    fill: currentColor;
+}
+.card-social-link:hover,
+.card-social-link:focus{
+    background-color: var(--active-color);
+
+}
+.customers-link:hover,
+.customers-link:focus{
+    color:var(--active-color);
+    border-color: var(--active-color);
+
 }
