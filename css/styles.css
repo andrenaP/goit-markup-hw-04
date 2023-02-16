@@ -6,6 +6,9 @@
     --SLATE:#434455;
     --CORNFLOWER:#E7E9FC;
     --White-color:#FFFFFF;
+    --LIGHT-SLATE:#8E8F99;
+
+
   }
 body{
     font-family: 'Roboto', sans-serif !important;
@@ -513,4 +516,31 @@ color: var(--SLATE);
 }
 .portfolio-link{
 
+}
+.customers-header{
+    color: var(--NAVY-BLUE);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.customers-list{
+    display: flex;
+    gap: 24px;
+}
+.customers-item{
+    width: 168px;
+    height: 88px;
+}
+.customers-link{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--LIGHT-SLATE);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    color: var(--LIGHT-SLATE);
 }
