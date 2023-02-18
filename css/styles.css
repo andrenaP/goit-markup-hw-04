@@ -505,7 +505,6 @@ img{
     height: auto;
     display: block;
     background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
-background-blend-mode: soft-light, normal;
 mix-blend-mode: normal;
 }
 .portfolio-list-header {
